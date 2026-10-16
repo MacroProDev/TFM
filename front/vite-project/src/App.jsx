@@ -1,5 +1,6 @@
 import './App.css'
 import Calendario from './Calendario'
+import CreadorRutinas from './CreadorRutinas'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <h1>Mi proyecto</h1>
         <nav>
           <a href="#">Inicio</a>
-          <a href="#">Reservas</a>
+          <a href="#">Rutinas</a>
           <a href="#">Contacto</a>
         </nav>
       </header>
@@ -19,8 +20,7 @@ function App() {
         </aside>
 
         <main className="columna-derecha">
-          <h2>Contenido principal</h2>
-          <p>Aquí irán los resultados.</p>
+          <CreadorRutinas />
         </main>
       </div>
     </div>

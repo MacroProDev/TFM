@@ -46,6 +46,7 @@
 
 .columna-derecha {
   padding: 1rem;
+  min-width: 0; /* evita que el contenido ensanche la columna y rompa el 40% / 60% */
 }
 
 /* En móvil, las columnas se apilan */
